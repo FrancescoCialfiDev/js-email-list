@@ -1,10 +1,11 @@
+/*-------- GENERAL --------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* UTILITY */
+/*-------- UTILITY --------*/
 .dFlex{
     display: flex;
 }
@@ -13,6 +14,7 @@
     justify-content: center;
 }
 
+/*-------- HEADER --------*/
 header{
     height: 100px;
     background-color: black;
@@ -22,26 +24,39 @@ header{
     justify-content: center;
 }
 
+/*-------- MAIN --------*/
 main{
     height: calc(100vh - 200px);
+}
+.containerList{
+    width: 80%;
+    border-radius: 10px;
+}
+ul li{
+    list-style: none;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+
+li{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 0;
+    padding: 15px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
 }
 
 footer{
     height: 100px;
     background-color: black;
-}
-
-ul li{
-    list-style: none;
-    color: white;
-    padding: 15px;
-    margin-top: 5px;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-.containerList{
-    background-color: black;
-    width: 80%;
-    border-radius: 10px;
 }
