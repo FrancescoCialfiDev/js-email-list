@@ -23,20 +23,16 @@ function generateEmail() {
 
                 arrayEmail.push(res.data.response);
                 console.log(res.data.response);
-
-                if (arrayEmail.length === 1) {
-                    for (let i = 0; i < arrayEmail.length; i++) {
-                        lista.innerHTML += `<li>${arrayEmail[i]}</li>`
-                    }
+                for (let i = 0; i < arrayEmail.length; i++) {
+                    lista.innerHTML += `<li>${arrayEmail[i]}</li>`
                 }
-
             })
         if (ind === 10) {
             clearInterval(intervallo)
         }
 
 
-    }, 200);
+    }, 600);
 
 
 
