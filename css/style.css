@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+.dFlex{
+    display: flex;
+}
+.align{
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    height: calc(100vh - 200px);
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+}
+
+ul li{
+    list-style: none;
+    color: white;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.containerList{
+    background-color: black;
+    width: 80%;
+    border-radius: 10px;
+}
