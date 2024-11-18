@@ -14,7 +14,7 @@ bottone.addEventListener("click", generateEmail);
 function generateEmail() {
     lista.innerHTML = "";
     let ind = 0;
-    bottone.disabled = true;
+    bottone.setAttribute('disabled', "");
 
     const intervallo = setInterval(() => {
         ind++;
@@ -32,7 +32,7 @@ function generateEmail() {
 
         if (ind === 10) {
             clearInterval(intervallo);
-            bottone.disabled = false;
+            bottone.removeAttribute('disabled');
         }
     }, 600);
 }

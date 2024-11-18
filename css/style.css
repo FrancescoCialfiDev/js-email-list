@@ -17,7 +17,7 @@
 /*-------- HEADER --------*/
 header{
     height: 100px;
-    background-color: black;
+    background-color: #404b57;
     color: white;
     display: flex;
     align-items: center;
@@ -32,19 +32,18 @@ main{
     width: 80%;
     border-radius: 10px;
 }
-ul li{
-    list-style: none;
-    padding: 15px;
-    margin-top: 5px;
-    border-radius: 10px;
-}
-
 
 li{
-    background-color: white;
+    text-align: center;
+    list-style: none;
+    padding: 9px;
+    margin-top: 4px;
+    border-radius: 12px;
+    background-color: #404b57;
     border: 1px solid black;
-    color: black;
+    color: white;
 }
+
 button{
     margin-top: 20px;
     margin-left: 20px;
@@ -59,5 +58,12 @@ button{
 
 footer{
     height: 100px;
-    background-color: black;
+    background-color: #404b57;
+}
+
+@media screen and (max-width: 476px) {
+    h1 {
+        font-size: 1.5rem; 
+        text-align: center;
+    }
 }
